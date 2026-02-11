@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <StatDef>
+    <defName>VacuumResistance</defName>
+    <!-- 直接追加我们自己的 Part，Anomaly 原版 Part 仍会执行，互不冲突 -->
+    <statParts>
+      <li Class="A6k_StatParts.StatPart_VacuumRatedA6k"/>
+    </statParts>
+  </StatDef>
+</Defs>

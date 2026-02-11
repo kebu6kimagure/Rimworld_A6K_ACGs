@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="ApparelBase">
+    <defName>A6k_Apparel_OuterwearPlus</defName>
+    <label>A6k Outerwear Plus</label>
+    <description>An advanced cosplay outerwear with enhanced protection. Features randomized variants.</description>
+    <graphicData>
+      <texPath>apparel/a6kouterwear/a6koutplusicon</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>400</MaxHitPoints>
+      <WorkToMake>1600</WorkToMake>
+      <Mass>6.0</Mass>
+      <MarketValue>3000</MarketValue>
+      <StuffEffectMultiplierArmor>1.3</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>1.2</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>1.0</StuffEffectMultiplierInsulation_Heat>
+      <ArmorRating_Sharp>1.27</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.54</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.65</ArmorRating_Heat>
+      <Insulation_Cold>82</Insulation_Cold>
+      <Insulation_Heat>12</Insulation_Heat>
+    </statBases>
+    <apparel>
+       <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>apparel/a6kouterwear/a6koutplusicon</wornGraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>A6k_AdvancedOuterwear</li>
+        <li>Noble</li>
+        <li>HighNoble</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="Verse.ColorGenerator_Single">
+      <color>RGBA(1.000, 1.000, 1.000, 1.000)</color>
+    </colorGenerator>
+    <equippedStatOffsets>
+      <VacuumResistance>0.75</VacuumResistance>
+      <SocialImpact>1</SocialImpact>
+    </equippedStatOffsets>
+    <techLevel>Spacer</techLevel>
+    <generateAllowChance>0.5</generateAllowChance>
+    <smeltable>false</smeltable>
+    <comps>
+      <li Class="A6k_CompVariant.CompProperties_VariantApparel">
+        <variantType>Outerwear</variantType>
+      </li>
+    </comps>
+
+
+    <tradeTags>
+      <li>Armor</li>
+    </tradeTags>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+
+  </ThingDef>
+</Defs>

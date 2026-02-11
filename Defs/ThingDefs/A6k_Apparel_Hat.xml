@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="ApparelBase">
+    <defName>A6k_Apparel_Hat</defName>
+    <label>A6k Hat</label>
+    <description>A hat inspired by A6k characters. Features randomized appearance variants.</description>
+    <graphicData>
+      <texPath>apparel/a6kheadgear/a6khaticon</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>400</MaxHitPoints>
+      <WorkToMake>85</WorkToMake>
+      <Mass>0.1</Mass>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>apparel/a6kheadgear/a6khaticon</wornGraphicPath>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>A6k_Headgear</li>
+        <li>Noble</li>
+        <li>HighNoble</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+        <li>Worker</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="Verse.ColorGenerator_StandardApparel"/>
+    <comps>
+      <li Class="A6k_CompVariant.CompProperties_VariantApparel">
+        <variantType>Hat</variantType>
+      </li>
+    </comps>
+    <techLevel>Neolithic</techLevel>
+    <generateAllowChance>1</generateAllowChance>
+    <smeltable>false</smeltable>
+    <tradeTags>
+      <li>BasicClothing</li>
+    </tradeTags>
+    <thingCategories>
+      <li>Headgear</li>
+    </thingCategories>
+
+  </ThingDef>
+</Defs>

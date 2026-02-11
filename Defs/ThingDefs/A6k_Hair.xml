@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HairDef>
+    <defName>A6k_Hair_TachibanaSyeri</defName>
+    <label>A6k Tachibana Syeri Hair</label>
+    <hairGender>FemaleUsually</hairGender>
+    <texPath>hair/a6ktachibanasyeri</texPath>
+    <styleTags>
+      <li>Urban</li>
+      <li>Rural</li>
+      <li>Tribal</li>
+      <li>Punk</li> 
+    </styleTags>
+  </HairDef>
+  
+  <HairDef>
+    <defName>A6k_Hair_SakurabaEma</defName>
+    <label>A6k Sakuraba Ema Hair</label>
+    <hairGender>FemaleUsually</hairGender>
+    <texPath>hair/a6ksakurabaema</texPath>
+    <styleTags>
+      <li>Urban</li>
+      <li>Rural</li>
+      <li>Tribal</li>
+      <li>Punk</li>
+    </styleTags>
+  </HairDef>
+
+
+  <HairDef>
+    <defName>A6k_Hair_Mayanotopgun</defName>
+    <label>A6k Mayanotopgun Hair</label>
+    <hairGender>FemaleUsually</hairGender>
+    <texPath>hair/a6kmayanotopgun</texPath>
+    <styleTags>
+      <li>Urban</li>
+      <li>Rural</li>
+      <li>Tribal</li>
+      <li>Punk</li>
+    </styleTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>A6k_Hair_NikaidoHiro</defName>
+    <label>A6k Nikaido Hiro Hair</label>
+    <hairGender>FemaleUsually</hairGender>
+    <texPath>hair/a6knikaidohiro</texPath>
+    <styleTags>
+      <li>Urban</li>
+      <li>Rural</li>
+      <li>Tribal</li>
+      <li>Punk</li>
+    </styleTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>A6k_Hair_YumiaLiessfeldt</defName>
+    <label>A6k Yumia Liessfeldt Hair</label>
+    <hairGender>FemaleUsually</hairGender>
+    <texPath>hair/a6kyumialiessfeldt</texPath>
+    <styleTags>
+      <li>Urban</li>
+      <li>Rural</li>
+      <li>Tribal</li>
+      <li>Punk</li>
+    </styleTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>A6k_Hair_SawatariKoko</defName>
+    <label>A6k Sawatari Koko Hair</label>
+    <hairGender>FemaleUsually</hairGender>
+    <texPath>hair/a6ksawatarikoko</texPath>
+    <styleTags>
+      <li>Urban</li>
+      <li>Rural</li>
+      <li>Tribal</li>
+      <li>Punk</li>
+    </styleTags>
+  </HairDef>
+
+  
+  <HairDef>
+    <defName>A6k_Hair_TounoHanna</defName>
+    <label>A6k Touno Hanna Hair</label>
+    <hairGender>FemaleUsually</hairGender>
+    <texPath>hair/a6ktounohanna</texPath>
+    <styleTags>
+      <li>Urban</li>
+      <li>Rural</li>
+      <li>Tribal</li>
+      <li>Punk</li>
+    </styleTags>
+  </HairDef>
+
+
+  <HairDef>
+    <defName>A6k_Hair_ShitouArisa</defName>
+    <label>A6k Shitou Arisa Hair</label>
+    <hairGender>FemaleUsually</hairGender>
+    <texPath>hair/a6kshitouarisa</texPath>
+    <styleTags>
+      <li>Urban</li>
+      <li>Rural</li>
+      <li>Tribal</li>
+      <li>Punk</li>
+    </styleTags>
+  </HairDef>
+
+
+  <HairDef>
+    <defName>A6k_Hair_NatsumeAnan</defName>
+    <label>A6k Natsume Anan Hair</label>
+    <hairGender>FemaleUsually</hairGender>
+    <texPath>hair/a6knatsumeanan</texPath>
+    <styleTags>
+      <li>Urban</li>
+      <li>Rural</li>
+      <li>Tribal</li>
+      <li>Punk</li>
+    </styleTags>
+  </HairDef>
+
+
+  <HairDef>
+    <defName>A6k_Hair_SaekiMiria</defName>
+    <label>A6k Saeki Miria Hair</label>
+    <hairGender>FemaleUsually</hairGender>
+    <texPath>hair/a6ksaekimiria</texPath>
+    <styleTags>
+      <li>Urban</li>
+      <li>Rural</li>
+      <li>Tribal</li>
+      <li>Punk</li>
+    </styleTags>
+  </HairDef>
+
+
+  <HairDef>
+    <defName>A6k_Hair_KurobeNanoka</defName>
+    <label>A6k Kurobe Nanoka Hair</label>
+    <hairGender>FemaleUsually</hairGender>
+    <texPath>hair/a6kkurobenanoka</texPath>
+    <styleTags>
+      <li>Urban</li>
+      <li>Rural</li>
+      <li>Tribal</li>
+      <li>Punk</li>
+    </styleTags>
+  </HairDef>
+
+
+</Defs>

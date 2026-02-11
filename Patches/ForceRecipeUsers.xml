@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <!-- 强制修正 A6k_Make_Apparel_OuterwearPlus 的 recipeUsers -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="A6k_Make_Apparel_OuterwearPlus"]/recipeUsers</xpath>
+    <value>
+      <recipeUsers>
+        <li>FabricationBench</li>
+      </recipeUsers>
+    </value>
+  </Operation>
+  <!-- 强制修正 A6k_Make_Apparel_HatPlus 的 recipeUsers -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/RecipeDef[defName="A6k_Make_Apparel_HatPlus"]/recipeUsers</xpath>
+    <value>
+      <recipeUsers>
+        <li>FabricationBench</li>
+      </recipeUsers>
+    </value>
+  </Operation>
+</Patch>

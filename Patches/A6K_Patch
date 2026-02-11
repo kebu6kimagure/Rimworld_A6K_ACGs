@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAttributeSet">
+    <xpath>/Defs/ThingDef[defName="A6k_Apparel_OuterwearPlus"]</xpath>
+    <attribute>IsVacuumRated</attribute>
+    <value>true</value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAttributeSet">
+    <xpath>/Defs/ThingDef[defName="A6k_Apparel_HatPlus"]</xpath>
+    <attribute>IsVacuumRated</attribute>
+    <value>true</value>
+  </Operation>
+</Patch>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="ApparelBase">
+    <defName>A6k_Apparel_Outerwear</defName>
+    <label>A6k Outerwear</label>
+    <description>A stylish cosplay outerwear with decent protection. Features randomized variants.</description>
+    <graphicData>
+      <texPath>apparel/a6kouterwear/a6kouticon</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+
+    <statBases>
+      <MaxHitPoints>400</MaxHitPoints>
+      <WorkToMake>150</WorkToMake>
+      <Mass>1.5</Mass>
+      <MarketValue>200</MarketValue>
+      <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.9</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.9</StuffEffectMultiplierInsulation_Heat>
+      <ArmorRating_Sharp>0.2</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.15</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.1</ArmorRating_Heat>
+      <Insulation_Cold>15</Insulation_Cold>
+      <Insulation_Heat>8</Insulation_Heat>
+    </statBases>
+
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>           <!-- 关键：原版 Neck 自带 shellRenderedBehindHead=true -->
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>apparel/a6kouterwear/a6kouticon</wornGraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>A6k_Outerwear</li>
+        <li>Noble</li>
+        <li>HighNoble</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Worker</li>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+
+    <colorGenerator Class="Verse.ColorGenerator_Single">
+      <color>RGBA(1.000, 1.000, 1.000, 1.000)</color>
+    </colorGenerator>
+
+    <techLevel>Industrial</techLevel>
+    <generateAllowChance>0.5</generateAllowChance>
+    <smeltable>false</smeltable>
+
+    <comps>
+      <li Class="A6k_CompVariant.CompProperties_VariantApparel">
+        <variantType>Outerwear</variantType>
+      </li>
+    </comps>
+
+    <tradeTags>
+      <li>BasicClothing</li>
+    </tradeTags>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+  </ThingDef>
+</Defs>

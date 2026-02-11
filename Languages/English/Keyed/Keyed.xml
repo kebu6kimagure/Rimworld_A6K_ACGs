@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <!-- 通用标签 -->
+    <A6k_SelectTexture>选择纹理</A6k_SelectTexture>
+    <A6k_ChooseVariant>选择变体</A6k_ChooseVariant>
+    <A6k_SelectTextureFor>为 {0} 选择纹理</A6k_SelectTextureFor>
+    <A6k_NoVariantsAvailable>没有可用的变体纹理。</A6k_NoVariantsAvailable>
+    <A6k_TextureSelected>已为 {0} 选择纹理：{1}</A6k_TextureSelected>
+    <A6k_BackToSources>返回来源列表</A6k_BackToSources>
+    <A6k_TextureNotFound>纹理未找到：{0}</A6k_TextureNotFound>
+    
+    <!-- 模组设置相关 -->
+    <A6k_VariantModSettings>A6k 变体模组设置</A6k_VariantModSettings>
+</LanguageData>
