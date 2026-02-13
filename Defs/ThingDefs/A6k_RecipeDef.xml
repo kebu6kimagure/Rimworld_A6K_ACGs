@@ -24,8 +24,7 @@
       <li>
         <filter>
           <categories>
-            <li>Fabric</li>
-            <li>Leathery</li>
+            <li>Textiles</li>
           </categories>
         </filter>
         <count>50</count>
@@ -33,13 +32,76 @@
     </ingredients>
     <fixedIngredientFilter>
       <categories>
-        <li>Fabric</li>
-        <li>Leathery</li>
+        <li>Textiles</li>
       </categories>
     </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <categories>
+        <li>Textiles</li>
+      </categories>
+      <disallowedThingDefs>
+        <li>Gold</li>
+        <li>Silver</li>
+        <li>Steel</li>
+        <li>Plasteel</li>
+        <li>Uranium</li>
+      </disallowedThingDefs>
+    </defaultIngredientFilter>
 
     <products>
       <A6k_Apparel_Hat>1</A6k_Apparel_Hat>
+    </products>
+  </RecipeDef>
+
+  <!-- =========================== -->
+  <!-- A6k Outerwear               -->
+  <!-- =========================== -->
+  <RecipeDef>
+    <defName>A6k_Make_Apparel_Outerwear</defName>
+    <label>make A6k Outerwear</label>
+    <description>Sew a lightweight A6k-themed outerwear set.</description>
+    <jobString>Making A6k Outerwear.</jobString>
+    <workAmount>150</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <skillRequirements><Crafting>5</Crafting></skillRequirements>
+    <researchPrerequisite>ComplexClothing</researchPrerequisite>
+    <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+    <recipeUsers>
+      <li>HandTailoringBench</li>
+      <li>ElectricTailoringBench</li>
+    </recipeUsers>
+
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Textiles</li>
+          </categories>
+        </filter>
+        <count>70</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Textiles</li>
+      </categories>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <categories>
+        <li>Textiles</li>
+      </categories>
+      <disallowedThingDefs>
+        <li>Gold</li>
+        <li>Silver</li>
+        <li>Steel</li>
+        <li>Plasteel</li>
+        <li>Uranium</li>
+      </disallowedThingDefs>
+    </defaultIngredientFilter>
+
+    <products>
+      <A6k_Apparel_Outerwear>1</A6k_Apparel_Outerwear>
     </products>
   </RecipeDef>
 
@@ -88,48 +150,6 @@
 
     <products>
       <A6k_Apparel_HatPlus>1</A6k_Apparel_HatPlus>
-    </products>
-  </RecipeDef>
-
-  <!-- =========================== -->
-  <!-- A6k Outerwear               -->
-  <!-- =========================== -->
-  <RecipeDef>
-    <defName>A6k_Make_Apparel_Outerwear</defName>
-    <label>make A6k Outerwear</label>
-    <description>Sew a lightweight A6k-themed outerwear set.</description>
-    <jobString>Making A6k Outerwear.</jobString>
-    <workAmount>150</workAmount>
-    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-    <workSkill>Crafting</workSkill>
-    <skillRequirements><Crafting>5</Crafting></skillRequirements>
-    <researchPrerequisite>ComplexClothing</researchPrerequisite>
-    <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
-    <recipeUsers>
-      <li>HandTailoringBench</li>
-      <li>ElectricTailoringBench</li>
-    </recipeUsers>
-
-    <ingredients>
-      <li>
-        <filter>
-          <categories>
-            <li>Fabric</li>
-            <li>Leathery</li>
-          </categories>
-        </filter>
-        <count>70</count>
-      </li>
-    </ingredients>
-    <fixedIngredientFilter>
-      <categories>
-        <li>Fabric</li>
-        <li>Leathery</li>
-      </categories>
-    </fixedIngredientFilter>
-
-    <products>
-      <A6k_Apparel_Outerwear>1</A6k_Apparel_Outerwear>
     </products>
   </RecipeDef>
 

@@ -2,83 +2,17 @@
 <Defs>
   <!-- 帽子变体 -->
   <A6k_CompVariant.HatVariantDef>
-    <defName>A6k_HatVariant_SakurabaEma</defName>
-    <label>Sakuraba Ema Variant</label>
-    <graphicPath>apparel/a6kheadgear/a6kheadgearsakurabaema</graphicPath>
-  </A6k_CompVariant.HatVariantDef>
-
-  <A6k_CompVariant.HatVariantDef>
-    <defName>A6k_HatVariant_TachibanaSyeri</defName>
-    <label>Tachibana Syeri Variant</label>
-    <graphicPath>apparel/a6kheadgear/a6kheadgeartachibanasyeri</graphicPath>
-  </A6k_CompVariant.HatVariantDef>
-
-  <A6k_CompVariant.HatVariantDef>
-    <defName>A6k_HatVariant_NikaidoHiro</defName>
-    <label>Nikaido Sawatari Koko</label>
-    <graphicPath>apparel/a6kheadgear/a6kheadgearnikaidohiro</graphicPath>
-  </A6k_CompVariant.HatVariantDef>
-
-  <A6k_CompVariant.HatVariantDef>
     <defName>A6k_HatVariant_YumiaLiessfeldt</defName>
     <label>Yumia Liessfeldt Variant</label>
     <graphicPath>apparel/a6kheadgear/a6kheadgearyumialiessfeldt</graphicPath>
   </A6k_CompVariant.HatVariantDef>
 
-  <A6k_CompVariant.HatVariantDef>
-    <defName>A6k_HatVariant_SawatariKoko</defName>
-    <label>Sawatari Koko Variant</label>
-    <graphicPath>apparel/a6kheadgear/a6kheadgearsawatarikoko</graphicPath>
-  </A6k_CompVariant.HatVariantDef>
-
-  <A6k_CompVariant.HatVariantDef>
-    <defName>A6k_HatVariant_TounoHanna</defName>
-    <label>Touno Hanna Variant</label>
-    <graphicPath>apparel/a6kheadgear/a6kheadgeartounohanna</graphicPath>
-  </A6k_CompVariant.HatVariantDef>
-
-  <A6k_CompVariant.HatVariantDef>
-    <defName>A6k_HatVariant_ShitouArisa</defName>
-    <label>Shitou Arisa Variant</label>
-    <graphicPath>apparel/a6kheadgear/a6kheadgearshitouarisa</graphicPath>
-  </A6k_CompVariant.HatVariantDef>
-
-  <A6k_CompVariant.HatVariantDef>
-    <defName>A6k_HatVariant_NatsumeAnan</defName>
-    <label>Natsume Anan Variant</label>
-    <graphicPath>apparel/a6kheadgear/a6kheadgearnatsumeanan</graphicPath>
-  </A6k_CompVariant.HatVariantDef>
-
-  <A6k_CompVariant.HatVariantDef>
-    <defName>A6k_HatVariant_KurobeNanoka</defName>
-    <label>Kurobe Nanoka Variant</label>
-    <graphicPath>apparel/a6kheadgear/a6kheadgearkurobenanoka</graphicPath>
-  </A6k_CompVariant.HatVariantDef>
-
 
   <!-- 外套变体 -->
-  <A6k_CompVariant.OuterwearVariantDef>
-    <defName>A6k_OuterwearVariant_TachibanaSyeri</defName>
-    <label>Tachibana Syeri Style</label>
-    <graphicPath>apparel/a6kouterwear/a6kouterweartachibanasyeri</graphicPath>
-  </A6k_CompVariant.OuterwearVariantDef>
-
-  <A6k_CompVariant.OuterwearVariantDef>
-    <defName>A6k_OuterwearVariant_SakurabaEma</defName>
-    <label>Sakuraba Ema Style</label>
-    <graphicPath>apparel/a6kouterwear/a6kouterwearsakurabaema</graphicPath>
-  </A6k_CompVariant.OuterwearVariantDef>
-
   <A6k_CompVariant.OuterwearVariantDef>
     <defName>A6k_OuterwearVariant_Mayanotopgun</defName>
     <label>Mayanotopgun Style</label>
     <graphicPath>apparel/a6kouterwear/a6kouterwearmayanotopgun</graphicPath>
-  </A6k_CompVariant.OuterwearVariantDef>
-
-  <A6k_CompVariant.OuterwearVariantDef>
-    <defName>A6k_OuterwearVariant_NikaidoHiro</defName>
-    <label>Nikaido Hiro Style</label>
-    <graphicPath>apparel/a6kouterwear/a6kouterwearnikaidohiro</graphicPath>
   </A6k_CompVariant.OuterwearVariantDef>
 
   <A6k_CompVariant.OuterwearVariantDef>
@@ -88,40 +22,15 @@
   </A6k_CompVariant.OuterwearVariantDef>
 
   <A6k_CompVariant.OuterwearVariantDef>
-    <defName>A6k_OuterwearVariant_SawatariKoko</defName>
-    <label>Sawatari Koko Style</label>
-    <graphicPath>apparel/a6kouterwear/a6kouterwearsawatarikoko</graphicPath>
+    <defName>A6k_OuterwearVariant_NishikigiChisato</defName>
+    <label>Nishikigi Chisato Style</label>
+    <graphicPath>apparel/a6kouterwear/a6kouterwearnishikigichisato</graphicPath>
   </A6k_CompVariant.OuterwearVariantDef>
 
   <A6k_CompVariant.OuterwearVariantDef>
-    <defName>A6k_OuterwearVariant_TounoHanna</defName>
-    <label>Touno Hanna Style</label>
-    <graphicPath>apparel/a6kouterwear/a6kouterweartounohanna</graphicPath>
-  </A6k_CompVariant.OuterwearVariantDef>
-
-  <A6k_CompVariant.OuterwearVariantDef>
-    <defName>A6k_OuterwearVariant_ShitouArisa</defName>
-    <label>Shitou Arisa Style</label>
-    <graphicPath>apparel/a6kouterwear/a6kouterwearshitouarisa</graphicPath>
-  </A6k_CompVariant.OuterwearVariantDef>
-  
-  <A6k_CompVariant.OuterwearVariantDef>
-    <defName>A6k_OuterwearVariant_NatsumeAnan</defName>
-    <label>Natsume Anan Style</label>
-    <graphicPath>apparel/a6kouterwear/a6kouterwearnatsumeanan</graphicPath>
-  </A6k_CompVariant.OuterwearVariantDef>
-
-
-  <A6k_CompVariant.OuterwearVariantDef>
-    <defName>A6k_OuterwearVariant_SaekiMiria</defName>
-    <label>Saeki Miria Style</label>
-    <graphicPath>apparel/a6kouterwear/a6kouterwearsaekimiria</graphicPath>
-  </A6k_CompVariant.OuterwearVariantDef>
-
-  <A6k_CompVariant.OuterwearVariantDef>
-    <defName>A6k_OuterwearVariant_KurobeNanoka</defName>
-    <label>Kurobe Nanoka Style</label>
-    <graphicPath>apparel/a6kouterwear/a6kouterwearkurobenanoka</graphicPath>
+    <defName>A6k_OuterwearVariant_IkarugaLuka</defName>
+    <label>Ikaruga Luka Style</label>
+    <graphicPath>apparel/a6kouterwear/a6kouterwearikaluka</graphicPath>
   </A6k_CompVariant.OuterwearVariantDef>
 
 </Defs>

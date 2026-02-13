@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>A6K's ACG Mod</name>
+  <name>A6K Random Texture Clothing(A6k's ACG Mod)</name>
   <author>Aishi6kimagure</author>
   <packageId>a6k.compvariant.mod</packageId>
   <supportedVersions>
     <li>1.6</li>
   </supportedVersions>
   <description>
+   注意:魔法少女ノ魔法裁判部分 由于全部人物制作完成,已经单独做成拓展包,不再包含在此mod中
     A self-use ACG mod with some cosmetic packs.
   </description>
 </ModMetaData>
